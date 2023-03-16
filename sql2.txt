@@ -12,5 +12,5 @@ b.objectid AS 'Object_ID', B.*
 FROM sys.dm_exec_query_stats a
 CROSS APPLY sys.dm_exec_SQL_text(a.SQL_handle) AS b
 ORDER BY [Avg_CPU_Time] DESC
-
+abc
 
